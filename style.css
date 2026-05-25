@@ -364,25 +364,26 @@ body {
 
 .service-card {
   display: flex;
-  align-items: center;
-  gap: 1rem;
+  align-items: flex-start;
+  gap: 1.1rem;
   background-color: var(--color-accent-light);
-  padding: 1rem;
+  padding: 1.25rem;
   border-radius: var(--radius-md);
   border: 1px solid rgba(92, 62, 33, 0.05);
-  transition: all 0.2s ease;
+  text-decoration: none; /* Prevents underlines inside anchor elements */
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .service-card:hover {
   background-color: var(--color-white);
   border-color: var(--color-accent);
   box-shadow: var(--shadow-sm);
-  transform: translateX(3px);
+  transform: translateY(-2px);
 }
 
 .service-icon-wrapper {
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   border-radius: var(--radius-full);
   background-color: var(--color-white);
   display: flex;
@@ -394,14 +395,29 @@ body {
 }
 
 .service-icon-wrapper svg {
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
 }
 
-.service-name {
-  font-size: 0.95rem;
-  font-weight: 600;
+.service-content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.service-title {
+  font-family: var(--font-title);
+  font-size: 1.05rem;
+  font-weight: 700;
   color: var(--color-black);
+  margin-bottom: 0.25rem;
+}
+
+.service-desc {
+  font-size: 0.85rem;
+  color: var(--color-text-main);
+  opacity: 0.85;
+  line-height: 1.45;
 }
 
 /* Secondary Social Media Grid */
