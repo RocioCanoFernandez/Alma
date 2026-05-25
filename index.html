@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica Montecarmelo | Hub Digital</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Clínica integral en Sevilla especializada en odontología avanzada, medicina estética, cirugía plástica y tratamientos capilares.">
+  <meta name="author" content="SeviAI Ecosystem">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="public/logo.png">
+  <link rel="shortcut icon" type="image/png" href="public/logo.png">
+  <link rel="apple-touch-icon" href="public/logo.png">
+
+  <!-- Open Graph / Link Preview -->
+  <meta property="og:title" content="Clínica Montecarmelo | Hub Digital">
+  <meta property="og:description" content="Clínica integral en Sevilla especializada en odontología avanzada, medicina estética, cirugía plástica y tratamientos capilares.">
+  <meta property="og:image" content="public/logo.png">
+  <meta property="og:type" content="website">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Clínica Montecarmelo | Hub Digital">
+  <meta name="twitter:description" content="Clínica integral en Sevilla especializada en odontología avanzada, medicina estética, cirugía plástica y tratamientos capilares.">
+  <meta name="twitter:image" content="public/logo.png">
+</head>
+<body>
+
+  <div class="hub-container">
+    
+    <!-- Top Visual Header with glassmorphism vCard downloader -->
+    <header class="brand-header">
+      <button class="floating-vcard" id="btn-save-vcard" onclick="generateVCard()" aria-label="Guardar contacto en la agenda">
+        <!-- Lucide download/user-plus icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="19" y1="8" x2="19" y2="14"/><line x1="22" y1="11" x2="16" y2="11"/></svg>
+      </button>
+      
+      <div class="logo-container">
+        <img src="public/logo.png" alt="Logo Clínica Montecarmelo" onerror="this.src='https://clinicamontecarmelo.es/wp-content/uploads/2021/04/Logo-Clinica-Montecarmelo-chocolate-sin-fondo.png'">
+      </div>
+    </header>
+
+    <!-- Overlapping Profile Section -->
+    <div class="profile-section">
+      <div class="profile-img-container">
+        <img src="public/alma.jpg" alt="Alma Sánchez Vázquez" class="profile-img" onerror="this.src='https://placehold.co/120x120?text=Alma'">
+      </div>
+    </div>
+
+    <!-- Main Identity and Direct Contacts Block -->
+    <div class="profile-container">
+      <div class="profile-info">
+        <h1>Clínica Montecarmelo</h1>
+        <p class="profile-subtitle">Clínica Integral</p>
+        <span class="gerente-tag">Alma Sánchez Vázquez · Gerente</span>
+      </div>
+
+      <!-- Direct clickable Contact Block -->
+      <div class="contact-direct">
+        <a href="tel:619387995" class="contact-link" id="link-phone-direct">
+          <!-- Lucide Phone icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <strong>619 38 79 95</strong>
+        </a>
+        <a href="mailto:direccion@clinicamontecarmelo.es" class="contact-link" id="link-email-direct">
+          <!-- Lucide Mail icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          direccion@clinicamontecarmelo.es
+        </a>
+      </div>
+
+      <!-- Slogan Box -->
+      <div class="slogan-box">
+        <p class="slogan">En Clínica Montecarmelo no tratamos cuerpos, cuidamos personas.</p>
+      </div>
+
+      <!-- Short Intro Description -->
+      <p class="description">
+        Somos una clínica integral especializada en odontología avanzada, medicina estética, cirugía plástica y tratamientos capilares con un enfoque personalizado y resultados naturales, donde el centro son los pacientes.
+      </p>
+    </div>
+
+    <!-- Main Booking Actions -->
+    <main class="section">
+      
+      <!-- Highlighted CTA: Doctoralia Booking -->
+      <a href="https://www.doctoralia.es/z/mJXFUe" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="btn-cta-doctoralia">
+        <!-- Lucide Calendar/Clock icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        Reservar cita en Doctoralia
+      </a>
+
+      <!-- Other Main Links -->
+      <a href="https://ofertas.clinicamontecarmelo.es/" target="_blank" rel="noopener noreferrer" class="btn btn-outline" id="btn-link-catalog">
+        <!-- Lucide ShoppingBag/Tag icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+        Ver catálogo / tienda online
+      </a>
+
+      <a href="https://clinicamontecarmelo.es/" target="_blank" rel="noopener noreferrer" class="btn btn-outline" id="btn-link-web">
+        <!-- Lucide Globe icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        Web oficial
+      </a>
+
+      <a href="https://maps.app.goo.gl/4Zh8PZF4PaELW7846" target="_blank" rel="noopener noreferrer" class="btn btn-outline" id="btn-link-maps">
+        <!-- Lucide MapPin icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Cómo llegar
+      </a>
+
+      <a href="https://g.page/r/CRsf9zzfJNXaEBM/review" target="_blank" rel="noopener noreferrer" class="btn btn-outline" id="btn-link-reviews">
+        <!-- Lucide Star icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        Dejar reseña en Google
+      </a>
+
+    </main>
+
+    <!-- Services available section -->
+    <section class="section" id="services-section">
+      <h2 class="section-title">Servicios disponibles</h2>
+      
+      <div class="services-grid">
+        <!-- Service Item 1 -->
+        <div class="service-card">
+          <div class="service-icon-wrapper">
+            <!-- Lucide Stethoscope icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/><path d="M8 15v1a6 6 0 0 0 6 6h2a6 6 0 0 0 6-6v-4"/><circle cx="20" cy="10" r="2"/></svg>
+          </div>
+          <span class="service-name">Primera consulta</span>
+        </div>
+        
+        <!-- Service Item 2 -->
+        <div class="service-card">
+          <div class="service-icon-wrapper">
+            <!-- Lucide Smile/Tooth representation -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+          </div>
+          <span class="service-name">Higiene bucodental</span>
+        </div>
+        
+        <!-- Service Item 3 -->
+        <div class="service-card">
+          <div class="service-icon-wrapper">
+            <!-- Lucide Clipboard/Health representation -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/><path d="M9 14h6"/><path d="M9 18h6"/><path d="M12 10h.01"/></svg>
+          </div>
+          <span class="service-name">Primera consulta de cirugía</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Networks Grid -->
+    <section class="section" id="socials-section">
+      <h2 class="section-title">Nuestras redes sociales</h2>
+      
+      <div class="social-grid">
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/clinicamontecarmelo?igsh=MW5qNHc4d3A0cThweQ==" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+        
+        <!-- Facebook -->
+        <a href="https://www.facebook.com/share/18TA81gAbT/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+        
+        <!-- YouTube -->
+        <a href="https://youtube.com/@clinicamontecarmelo993?si=8XHJ4JneTQ7XcHCB" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="YouTube">
+          <!-- Custom YouTube SVG -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+        </a>
+        
+        <!-- TikTok -->
+        <a href="https://www.tiktok.com/@clinicamontecarmelo?_r=1&_t=ZN-96dT27QPRB8" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="TikTok">
+          <!-- Custom TikTok representation SVG -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+        </a>
+        
+        <!-- LinkedIn of Alma -->
+        <a href="https://www.linkedin.com/in/alma-s%C3%A1nchez-v%C3%A1zquez-41a82123a" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn Alma Sánchez">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- Info Block: Address & Hours -->
+    <section class="section" id="info-section">
+      <div class="info-block">
+        <!-- Address -->
+        <div class="info-item">
+          <!-- Lucide MapPin icon -->
+          <svg class="info-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <div>
+            <p class="info-title">Dirección</p>
+            <p class="info-text">Clínica Montecarmelo<br>Av. de Portugal, 18, local 3<br>41004 Sevilla<br>España</p>
+          </div>
+        </div>
+        
+        <!-- Hours -->
+        <div class="info-item">
+          <!-- Lucide Clock icon -->
+          <svg class="info-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <div>
+            <p class="info-title">Horario de atención</p>
+            <p class="info-text">Lunes a jueves: 10:00 a 20:00<br>Viernes: 10:00 a 14:00<br>Sábados y domingos: cerrado</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brand-integrated Floating WhatsApp Bubble -->
+    <a href="https://wa.me/34675825817" target="_blank" rel="noopener noreferrer" class="floating-whatsapp" id="btn-floating-whatsapp" aria-label="Hablar por WhatsApp">
+      <svg class="whatsapp-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+    </a>
+
+    <!-- Footer: SeviAI Ecosystem first, then Clinic details -->
+    <footer class="footer">
+      <a href="https://www.seviai.es/" target="_blank" rel="noopener noreferrer" class="seviai-link" id="link-seviai-footer">
+        <img src="https://seviai.es/wp-content/uploads/2023/10/logo-seviai-sin-fondo.png" alt="SeviAI" class="seviai-logo">
+        SeviAI Ecosystem
+      </a>
+      <p class="footer-copy">© 2026 Clínica Montecarmelo · Todos los derechos reservados</p>
+    </footer>
+
+  </div>
+
+  <script src="vcard.js"></script>
+</body>
+</html>
