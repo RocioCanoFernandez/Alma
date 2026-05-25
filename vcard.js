@@ -1,6 +1,5 @@
 function generateVCard() {
-  // Use window.location.href to dynamically grab the correct Hub URL
-  const hubUrl = window.location.href;
+  const hubUrl = "https://hub-hub-alma.npfusf.easypanel.host/";
   const vcard = `BEGIN:VCARD
 VERSION:3.0
 N:Sánchez Vázquez;Alma;;;
