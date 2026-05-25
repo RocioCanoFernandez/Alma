@@ -139,6 +139,7 @@ body {
   height: 100%;
   border-radius: var(--radius-full);
   object-fit: cover;
+  object-position: center 15%; /* Shift photo down to avoid cutting the top of her head */
   background-color: var(--color-accent-light);
   display: block;
 }
@@ -172,14 +173,16 @@ body {
 }
 
 .gerente-tag {
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--color-text-muted);
+  display: inline-block; /* Crucial so that margin-bottom is respected! */
+  font-size: 0.95rem;    /* Larger, matching the font size of the contact buttons */
+  font-weight: 700;      /* Bold for premium presence and legibilidad */
+  color: var(--color-primary-dark); /* Deeper corporate brown for contrast */
   background-color: var(--color-accent-light);
-  padding: 0.25rem 0.75rem;
+  padding: 0.45rem 1.1rem; /* More generous premium padding */
   border-radius: var(--radius-full);
-  margin-bottom: 1.25rem;
-  border: 1px solid rgba(92, 62, 33, 0.08);
+  margin-bottom: 1.25rem;   /* Separates it perfectly from the phone button below */
+  border: 1px solid rgba(92, 62, 33, 0.12);
+  transition: all 0.2s ease;
 }
 
 /* Contact Links top visible block */
